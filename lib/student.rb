@@ -37,6 +37,7 @@ class Student
       DB[:conn].execute("SELECT last_insert_rowid()
       FROM students")[0][0]
     end 
+  end 
   
 
   # Remember, you can access your database connection anywhere in this class
