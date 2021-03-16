@@ -19,7 +19,7 @@ class Student
     );
     SQL
     
-    DB[:conn].execute("DROP TABLE IF EXISTS students")
+    DB[:conn].execute(sql)
   end 
   
 
